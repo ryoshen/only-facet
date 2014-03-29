@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e2823de-2c86-434b-96a5-a7a9d05ff200" name="Default" comment="refactor">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py" />
+    <list default="true" id="1e2823de-2c86-434b-96a5-a7a9d05ff200" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="only-facet.iws" />
@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="7" selection-start="562" selection-end="562" vertical-scroll-proportion="-10.846154" vertical-offset="26" max-vertical-offset="14190">
+            <state line="48" column="0" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.92170817" vertical-offset="538" max-vertical-offset="14256">
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -59,13 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facetsgroup.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="facetsgroup.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.10981697" vertical-offset="0" max-vertical-offset="2618">
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state line="2" column="31" selection-start="60" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2618">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,8 +163,8 @@
         <option value="$PROJECT_DIR$/demoproject/facetspecs.py" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/facetvalue.py" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py" />
-        <option value="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py" />
+        <option value="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" />
       </list>
     </option>
   </component>
@@ -631,7 +629,11 @@
       <created>1396114694764</created>
       <updated>1396114694764</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="refactor">
+      <created>1396115485934</created>
+      <updated>1396115485934</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -733,15 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="20" selection-start="6864" selection-end="6864" vertical-scroll-proportion="0.0" vertical-offset="4422" max-vertical-offset="7678">
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoproject/facetspecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="195" column="0" selection-start="5970" selection-end="5970" vertical-scroll-proportion="0.0" vertical-offset="3820" max-vertical-offset="4730">
@@ -783,20 +776,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/views.py">
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="562" selection-end="562" vertical-scroll-proportion="-10.846154" vertical-offset="26" max-vertical-offset="14190">
+        <state line="2" column="31" selection-start="60" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="20" selection-start="6864" selection-end="6864" vertical-scroll-proportion="0.0" vertical-offset="4422" max-vertical-offset="7678">
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py">
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.10981697" vertical-offset="0" max-vertical-offset="2618">
+        <state line="48" column="0" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.92170817" vertical-offset="538" max-vertical-offset="14256">
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
