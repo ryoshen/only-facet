@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2823de-2c86-434b-96a5-a7a9d05ff200" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="only-facet.iws" />
@@ -27,17 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="facet.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/facet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="346" column="0" selection-start="16154" selection-end="16154" vertical-scroll-proportion="0.0" vertical-offset="7590" max-vertical-offset="8624">
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,12 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1196" selection-end="1196" vertical-scroll-proportion="-0.3868132" vertical-offset="1496" max-vertical-offset="7788">
+            <state line="77" column="0" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7788">
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facetsgroup.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="4" selection-start="552" selection-end="552" vertical-scroll-proportion="0.53957635" vertical-offset="0" max-vertical-offset="2816">
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,6 +164,7 @@
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/facetvalue.py" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py" />
+        <option value="$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py" />
       </list>
     </option>
   </component>
@@ -597,7 +597,11 @@
       <created>1396112079258</created>
       <updated>1396112079258</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor">
+      <created>1396113636517</created>
+      <updated>1396113636517</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -639,13 +643,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="483" selection-end="483" vertical-scroll-proportion="-7.6153846" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="26" selection-start="226" selection-end="226" vertical-scroll-proportion="-4.230769" vertical-offset="0" max-vertical-offset="242">
@@ -756,9 +753,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1196" selection-end="1196" vertical-scroll-proportion="-0.3868132" vertical-offset="1496" max-vertical-offset="7788">
+        <state line="77" column="0" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7788">
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="552" selection-end="552" vertical-scroll-proportion="0.53957635" vertical-offset="0" max-vertical-offset="2816">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
