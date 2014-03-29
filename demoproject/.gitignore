@@ -1,0 +1,4 @@
+# exclude everyting except project-related files and compiled files.
+*.pyc
+.idea*
+
