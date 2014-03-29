@@ -11,7 +11,7 @@ from djfacet.load_all import *
 from djfacet.fb_utils.utils import *
 from djfacet.fb_utils.template import render_block_to_string
 from demoproject.apps.djfacet.facetedmanager import access_fmglobal
-from demoproject.apps.djfacet.fb_utils.utils import create_queryUrlStub
+from demoproject.apps.djfacet.fb_utils.utils import create_queryUrlStub, djfacetlog
 
 
 def home(request):
@@ -24,6 +24,7 @@ def home(request):
     it tries to remove the wrong ones, recompose the url and issue a redirect command.
     In this case a HttpResponseRedirect is returned, not a tuple, so an if statement handles that situation.
     """
+    djfacetlog("home view start to dispatch...")
     query_filtersUrl = request.GET.getlist('filter')
     item = request.GET.get('item', None)
     resulttype = validate_ResType(request.GET.get('resulttype', None))
@@ -32,9 +33,11 @@ def home(request):
         # redirect to the all-facets page
         return redirect("allfacets/?resulttype=%s" % resulttype)
     elif item:
-        # contains an item, redirect to the single page.
+        djfacetlog("Single item dispatched! %s" % item)
+        # contains only an item, redirect to the single page.
         results = single_item(request, item)
     else:
+        djfacetlog("classic search dispatched!")
         # it's classic search page
         results = search_page(request)
 
@@ -56,7 +59,6 @@ def single_item(request, item):
     FM_GLOBAL = access_fmglobal()
     page, resulttype, ordering, query_filtersUrl, query_filtersBuffer, activeIDs, item, totitems, showonly_subs, history = __extractGETparams(
         request)
-    single_item_template, table_template = None, None
     redirect_flag, query_filtersUrl_Clean = __validateQueryFilters(resulttype, query_filtersUrl, FM_GLOBAL)
     if redirect_flag:
         newurl_stub = create_queryUrlStub(query_filtersUrl_Clean)

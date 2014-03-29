@@ -1,16 +1,11 @@
 from djfacet.constants import *
 from djfacet.facet import *
+from demoproject.apps.djfacet.facet import Facet
 from fb_utils.utils import djfacetlog
-
-
-
 
 #
 # FacetsGroup : abstracts the collective entity composed by multiple facets
 #
-
-
-
 class FacetsGroup(object):
     """ Class representing an arbitrary group of facets
         =+=
@@ -71,7 +66,6 @@ class FacetsGroup(object):
 
                 behaviour = i.get('behaviour', None) # behavior of each facet//result_type
                 group = self
-                # Facet(name, originalModel, originalAttribute, displayAttribute = None, behaviour = None, hierarchyoptions= None,  mask=None, customvalues = None, mptt = False, exclude=False, group=[])
                 djfacetlog("..adding facet: %s" % uniquename, True)
                 x = Facet(uniquename, appearance_specs['label'], model,
                           dbfield, displayfield, ordering, behaviour, hierarchyoptions, number_opts, mask, customvalues,
@@ -119,4 +113,3 @@ class FacetsGroup(object):
             if r:
                 return r
         return None
-		
