@@ -1,9 +1,3 @@
-##################
-#  2011
-#  NEW FILE VERSION FOR THREAD-SAFE, DB-CACHED, STATELESS FACETED MANAGER OBJECT 
-#
-##################
-
 from django.http import HttpResponse, Http404
 from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext, Context
@@ -16,6 +10,9 @@ from djfacet.cache_manager import *
 from djfacet.load_all import *
 from djfacet.fb_utils.utils import *
 from djfacet.fb_utils.template import render_block_to_string
+from demoproject.apps.djfacet.facetedmanager import access_fmglobal
+from demoproject.apps.djfacet.fb_utils.utils import create_queryUrlStub
+
 
 def home(request):
     """
@@ -23,8 +20,9 @@ def home(request):
 
     The DJF_SPLASHPAGE constant defaults to True and indicates that the all_facets splash page is desired.
 
-    The <search_page> view usually returns a (template, context) tuple; however if the query filters are invalid, it tries to remove the wrong ones, recompose the url and issue a redirect command. In this case a HttpResponseRedirect is returned, not a tuple, so an if statement handles that situation.
-
+    The <search_page> view usually returns a (template, context) tuple; however if the query filters are invalid,
+    it tries to remove the wrong ones, recompose the url and issue a redirect command.
+    In this case a HttpResponseRedirect is returned, not a tuple, so an if statement handles that situation.
     """
     query_filtersUrl = request.GET.getlist('filter')
     item = request.GET.get('item', None)
@@ -34,10 +32,12 @@ def home(request):
         # redirect to the all-facets page
         return redirect("allfacets/?resulttype=%s" % resulttype)
     elif item:
+        # contains an item, redirect to the single page.
         results = single_item(request, item)
     else:
         # it's classic search page
         results = search_page(request)
+
     # finally..
     if type(results) == type(('a tuple',)):
         template, context = results
@@ -50,6 +50,8 @@ def home(request):
 
 def single_item(request, item):
     """
+    Handles single item query request.
+
     """
     FM_GLOBAL = access_fmglobal()
     page, resulttype, ordering, query_filtersUrl, query_filtersBuffer, activeIDs, item, totitems, showonly_subs, history = __extractGETparams(
@@ -57,7 +59,6 @@ def single_item(request, item):
     single_item_template, table_template = None, None
     redirect_flag, query_filtersUrl_Clean = __validateQueryFilters(resulttype, query_filtersUrl, FM_GLOBAL)
     if redirect_flag:
-        djfacetlog("FacetViews>> Redirecting; the url contained  invalid filter values!", True)
         newurl_stub = create_queryUrlStub(query_filtersUrl_Clean)
         newurl_stub = "%s?resulttype=%s%s" % (request.path, resulttype, newurl_stub)
         return redirect(newurl_stub)

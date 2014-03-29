@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2823de-2c86-434b-96a5-a7a9d05ff200" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/cache_manager.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/cache_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/facetspecs.py" afterPath="$PROJECT_DIR$/demoproject/facetspecs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/facetvalue.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/facetvalue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -52,12 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="4" selection-start="698" selection-end="698" vertical-scroll-proportion="0.5150502" vertical-offset="0" max-vertical-offset="14278">
+            <state line="14" column="0" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14300">
               <folding>
-                <element signature="e#131#176#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="1196" selection-end="1196" vertical-scroll-proportion="-0.3868132" vertical-offset="1496" max-vertical-offset="7788">
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,6 +164,7 @@
         <option value="$PROJECT_DIR$/demoproject/facetspecs.py" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/facetvalue.py" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" />
+        <option value="$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py" />
       </list>
     </option>
   </component>
@@ -260,6 +269,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="djfacet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="only-facet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="only-facet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="djfacet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fb_utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,12 +593,16 @@
       <created>1396111666811</created>
       <updated>1396111666811</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor">
+      <created>1396112079258</created>
+      <updated>1396112079258</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-41" width="1920" height="1058" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -571,7 +610,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16168623" sideWeight="0.6705757" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16168623" sideWeight="0.6705757" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -600,13 +639,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="3270" selection-end="3270" vertical-scroll-proportion="-9.423077" vertical-offset="1713" max-vertical-offset="2354">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="9" selection-start="483" selection-end="483" vertical-scroll-proportion="-7.6153846" vertical-offset="0" max-vertical-offset="330">
@@ -715,9 +747,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="698" selection-end="698" vertical-scroll-proportion="0.5150502" vertical-offset="0" max-vertical-offset="14278">
+        <state line="14" column="0" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14300">
           <folding>
-            <element signature="e#131#176#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1196" selection-end="1196" vertical-scroll-proportion="-0.3868132" vertical-offset="1496" max-vertical-offset="7788">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
