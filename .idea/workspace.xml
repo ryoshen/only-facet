@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2823de-2c86-434b-96a5-a7a9d05ff200" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/facetsgroup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/fb_utils/utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,7 +40,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="8" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.60758084" vertical-offset="269" max-vertical-offset="14344">
+            <state line="41" column="0" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.9509476" vertical-offset="49" max-vertical-offset="14190">
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -607,7 +605,11 @@
       <created>1396113728252</created>
       <updated>1396113728252</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactor">
+      <created>1396114353721</created>
+      <updated>1396114353721</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -768,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="8" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.60758084" vertical-offset="269" max-vertical-offset="14344">
+        <state line="41" column="0" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.9509476" vertical-offset="49" max-vertical-offset="14190">
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
