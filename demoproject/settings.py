@@ -31,7 +31,7 @@ else:
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-	('mikele', 'michele@mail.com'),
+	('rio', 'rioxshen@mail.com'),
 )
 MANAGERS = ADMINS 
 TIME_ZONE = 'Europe/London'
