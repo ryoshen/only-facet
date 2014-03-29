@@ -221,6 +221,7 @@ def djfacetlog(stringa, override=False):
         If DEBUG= True it assumes we're using runserver, otherwise it tries to write it to a file
         and fails silently
     """
+    DEBUG = False
     if DJF_SHOWLOGS or override:
         if stringa == 'noise':
             stringa = "\n%s\n" % ("*&*^" * 100)
