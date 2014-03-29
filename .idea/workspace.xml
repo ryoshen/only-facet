@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2823de-2c86-434b-96a5-a7a9d05ff200" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/_explanation.html" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/_explanation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/control_available.html" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/control_available.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/control_bar.html" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/control_bar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/control_breadcrumbs.html" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/control_breadcrumbs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/control_history.html" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/control_history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/control_selected.html" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/control_selected.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/header.html" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/navbar.html" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/snippet_facet.html" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/snippet_facet.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="only-facet.iws" />
@@ -61,10 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="26" selection-start="226" selection-end="226" vertical-scroll-proportion="0.19130434" vertical-offset="0" max-vertical-offset="575">
+            <state line="5" column="26" selection-start="226" selection-end="226" vertical-scroll-proportion="-4.230769" vertical-offset="0" max-vertical-offset="242">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/navbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.38260868" vertical-offset="0" max-vertical-offset="575">
               <folding />
             </state>
           </provider>
@@ -98,6 +99,7 @@
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/base.html" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/footer.html" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/header.html" />
+        <option value="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/navbar.html" />
       </list>
     </option>
   </component>
@@ -548,7 +550,11 @@
       <created>1396108399132</created>
       <updated>1396108399133</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor">
+      <created>1396109589184</created>
+      <updated>1396109589184</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -613,7 +619,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="226" selection-end="226" vertical-scroll-proportion="0.19130434" vertical-offset="0" max-vertical-offset="575">
+        <state line="5" column="26" selection-start="226" selection-end="226" vertical-scroll-proportion="-4.230769" vertical-offset="0" max-vertical-offset="242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.38260868" vertical-offset="0" max-vertical-offset="575">
           <folding />
         </state>
       </provider>
