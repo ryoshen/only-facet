@@ -1,0 +1,161 @@
+/* <!-- */
+/* STYLES FOR THE SPLASH PAGE ONLY */
+
+
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:600px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+}
+a {
+	color:#369;
+}
+a:hover {
+	color:#fff;
+	background:#369;
+	text-decoration:none;
+}
+h1, h2, h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+}
+img {
+	margin:10px 0 5px;
+}
+/* Header styles    => we're not using the header anymore!*/
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#header {
+	border-bottom:1px solid #000;
+	background: white;	
+}
+#header img {
+	width: 400px;
+}
+
+/* 'widths' sub menu */
+#layoutdims {
+	clear:both;
+	background:#eee;
+	border-top:4px solid #000;
+	margin:0;
+	padding:6px 15px !important;
+	text-align:right;
+}
+
+
+div.facet {
+	max-height: 220px;
+/*	min-height: 20px;*/
+	border: dashed 1px DarkBlue;
+	overflow: auto;
+}
+
+
+
+div.facetgroup_vertical {
+	padding: 0px 14px 20px 12px;	
+	float: left;
+	max-width: 300px;
+}
+
+div.facetgroup_horizontal {
+	padding: 0px 14px 20px 12px;	
+	float: left;
+	max-width: 300px;
+}
+
+
+
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.innercolumn {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+
+
+.extlink {
+	color: blue;
+}
+
+
+.paginator {
+	margin-top: 50px;
+}
+
+	
+
+/* 2 Column (left menu) settings */
+.maincolumn {
+	background:#fff;		/* right column background colour */
+}
+.maincolumn .innercolumn {
+	right:75%;			/* right column width */
+	background:#f4f4f4;	/* left column background colour */
+}
+.maincolumn .col1 {
+	width:71%;			/* right column content width */
+	left:102%;			/* 100% plus left column left padding */
+}
+.maincolumn .col2 {
+	width:21%;			/* left column content width (column width minus left and right padding) */
+	left:6%;			/* (right column left and right padding) plus (left column left padding) */
+}
+
+
+
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}
+/* --> */
+
+
+
+
+
+
+.facetgroup h3 {
+/*	background: lavender;*/
+	margin-top: 30px;
+}
+
+

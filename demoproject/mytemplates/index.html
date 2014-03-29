@@ -1,0 +1,16 @@
+<h3>This is a demo of OnlyFacet - a faceted search engine.</h3>
+<li>Ok <a href="djfacet/">let's take a look!</a></li>
+
+<br /><br /><br /><br />
+<hr />
+<h3>Currently Active DjFacet Options:</h3>
+
+
+<table border="1" cellspacing="2" cellpadding="5">
+  <tr><th>Name</th><th>Value</th></tr>
+  {% for couple in parameters_peek  %}
+  <tr><td style="color: blue;">{{couple.0}}</td>
+    <td style="color: red;">{{couple.1}}</td></tr>
+  {% endfor %}
+
+</table>
