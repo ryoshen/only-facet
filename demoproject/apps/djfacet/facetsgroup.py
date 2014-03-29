@@ -1,6 +1,5 @@
 from djfacet.constants import *
 from djfacet.facet import *
-from demoproject.apps.djfacet.facet import Facet
 from fb_utils.utils import djfacetlog
 
 #
