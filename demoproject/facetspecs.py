@@ -1,19 +1,12 @@
 from religions.models import *
 
-
-
 ##################
 #  
 #  RESULT_TYPES and FACET_GROUPS
 #
 ##################
 
-
-
 facetslist = []
-
-
-
 
 #	label = interface name / uniquename = internal name / infospace: a Model or a QuerySet instance
 result_types = [{'label': 'Religions',
@@ -215,6 +208,3 @@ facetslist += [
 
     #	end of facet_list
 ]
-
-
-

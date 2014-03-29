@@ -4,9 +4,9 @@
 #
 ##################
 
-from django.http import HttpResponse, Http404, HttpResponseRedirect
+from django.http import HttpResponse, Http404
 from django.shortcuts import render_to_response, redirect
-from django.template import RequestContext, Context, loader
+from django.template import RequestContext, Context
 from django.template.loader import select_template, get_template
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
 from django.utils.encoding import force_unicode
@@ -16,13 +16,6 @@ from djfacet.cache_manager import *
 from djfacet.load_all import *
 from djfacet.fb_utils.utils import *
 from djfacet.fb_utils.template import render_block_to_string
-
-##################
-#  
-#  MAIN VIEWS 
-#
-##################
-
 
 def home(request):
     """
@@ -649,20 +642,3 @@ def update_facet(request):
                                         context)
 
     return HttpResponse(return_str)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

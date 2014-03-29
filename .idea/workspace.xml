@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2823de-2c86-434b-96a5-a7a9d05ff200" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/_readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/cache_manager.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/cache_manager.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/facetspecs.py" afterPath="$PROJECT_DIR$/demoproject/facetspecs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/facetvalue.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/facetvalue.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" afterPath="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -50,12 +52,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="14" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14828">
+            <state line="21" column="4" selection-start="698" selection-end="698" vertical-scroll-proportion="0.5150502" vertical-offset="0" max-vertical-offset="14278">
               <folding>
-                <element signature="e#131#198#0" expanded="true" />
+                <element signature="e#131#176#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,18 +66,56 @@
       <file leaf-file-name="facetspecs.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demoproject/facetspecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="0" selection-start="5289" selection-end="5289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4972">
+            <state line="195" column="0" selection-start="5970" selection-end="5970" vertical-scroll-proportion="0.0" vertical-offset="3820" max-vertical-offset="4730">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cache_manager.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="facetvalue.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/facetvalue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="12" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1936">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load_all.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/load_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="1958">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constants.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/constants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="4" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="1413" max-vertical-offset="3630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cache_manager.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/cache_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10560">
+            <state line="22" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10054">
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,7 +152,9 @@
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/components/navbar.html" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/facet.py" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/urls.py" />
+        <option value="$PROJECT_DIR$/demoproject/apps/djfacet/cache_manager.py" />
         <option value="$PROJECT_DIR$/demoproject/facetspecs.py" />
+        <option value="$PROJECT_DIR$/demoproject/apps/djfacet/facetvalue.py" />
         <option value="$PROJECT_DIR$/demoproject/apps/djfacet/views.py" />
       </list>
     </option>
@@ -512,7 +554,11 @@
       <created>1396110141362</created>
       <updated>1396110141362</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor">
+      <created>1396111666811</created>
+      <updated>1396111666811</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -554,13 +600,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demoproject/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1034">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/templates/djfacet/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="0" selection-start="3270" selection-end="3270" vertical-scroll-proportion="-9.423077" vertical-offset="1713" max-vertical-offset="2354">
@@ -628,27 +667,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/views.py">
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/cache_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="14" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14828">
+        <state line="22" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10054">
           <folding>
-            <element signature="e#131#198#0" expanded="true" />
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demoproject/facetspecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="0" selection-start="5289" selection-end="5289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4972">
+        <state line="195" column="0" selection-start="5970" selection-end="5970" vertical-scroll-proportion="0.0" vertical-offset="3820" max-vertical-offset="4730">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/cache_manager.py">
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/facetvalue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10560">
+        <state line="48" column="12" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/load_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="910">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1958">
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="1413" max-vertical-offset="3630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoproject/apps/djfacet/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="4" selection-start="698" selection-end="698" vertical-scroll-proportion="0.5150502" vertical-offset="0" max-vertical-offset="14278">
+          <folding>
+            <element signature="e#131#176#0" expanded="true" />
           </folding>
         </state>
       </provider>
